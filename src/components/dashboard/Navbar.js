@@ -5,7 +5,7 @@ import DriveLogo from '../media/drive img.png';
 
 export default function NavbarComp() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="sm">
             <Navbar.Brand as={Link} to="/" className="d-flex align-items-center justify-content-center">
                 <img
                     alt=""
